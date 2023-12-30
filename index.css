@@ -12,12 +12,12 @@ body {
     border: 1px solid #ccc;
     background-color: black;
     color: white;
-    width: 40vw;
+    width: 50vw;
     /* height: 100vh; */
 }
 
 img{
-    width: 90%;
+    width: 100%;
     height: 70%;
     display: flex;
     justify-content: center;
@@ -54,6 +54,8 @@ p{
        justify-content: center;
        align-items: center;
        flex-direction: column;
+       overflow-x: hidden;
+       margin: auto;
     }
 
     form{
@@ -78,6 +80,7 @@ p{
         text-align: inherit;
         font-size: 15px;
         padding: 15px;
+       
     }
 
     
